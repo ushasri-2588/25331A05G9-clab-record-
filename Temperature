@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+	float C,F;
+	printf("Enter the Temperature in Celsius : ");
+	scanf("%f",&C);
+	printf("Enter the Temperature in Fahrenheit : ");
+	scanf("%f",&F);
+	if (C>=0 && C<=100)
+	{ 
+	F=(((9*C)/5)+32);
+	printf("%.2f Temperature in Fahrenheit\n",F);
+	}
+	else
+	{
+	printf("temp not found");
+	}
+	if(F>=32 && F<=212)
+	{
+	C=((5*(F-32))/9);
+	printf("%.2f Temperature in Celsius \n",C);
+	}
+	else
+	{
+	printf("temp not found");
+	}
+	return 0;
+}
