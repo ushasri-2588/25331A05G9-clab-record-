@@ -16,5 +16,6 @@ int main()
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
     printf("GCD = %d", gcd(a,b));
+    printf("\n     25331A05G9");
     return 0;
 }
