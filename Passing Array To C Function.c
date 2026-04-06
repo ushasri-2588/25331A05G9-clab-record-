@@ -19,5 +19,6 @@ int main()
         scanf("%d", &arr[i]);
     }
     display(arr, n);
+    printf("\n     25331A05G9");
     return 0;
 }
