@@ -20,5 +20,6 @@ int main()
         printf("ID = %d  Name = %s  Marks = %.2f\n",
         s[i].id, s[i].name, s[i].marks);
     }
+    printf("     \n25331A05G9");
     return 0;
 }
